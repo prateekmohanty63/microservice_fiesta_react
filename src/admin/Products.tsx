@@ -1,7 +1,9 @@
 import React from "react";
+import Wrapper from "./Wrapper";
 
 const Products=()=>{
    return(
+       <Wrapper>
        <div>
             <h2>Section title</h2>
               <div className="table-responsive">
@@ -28,6 +30,7 @@ const Products=()=>{
                 </table>
               </div>
        </div>
+       </Wrapper>
    )
 }
 
